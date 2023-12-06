@@ -1,0 +1,37 @@
+:root {
+    --LIGHT-CYAN: hsl(193, 38%, 86%);
+    --NEON-GREEN: hsl(150, 100%, 66%);
+    --GRAYISH-BLUE: hsl(217, 19%, 38%);
+    --DARK-GRAYISH-BLUE: hsl(217, 19%, 24%);
+    --DARK-BLUE: hsl(218, 23%, 16%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--DARK-BLUE);
+}
+
+main {
+    height: 17rem;
+    width: 27rem;
+    background: var(--DARK-GRAYISH-BLUE);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 1rem 2rem;
+}
+
+main div img {
+    width: 20rem;
+}
