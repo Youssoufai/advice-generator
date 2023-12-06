@@ -21,17 +21,46 @@ body {
 }
 
 main {
-    height: 17rem;
+    height: 15rem;
     width: 27rem;
     background: var(--DARK-GRAYISH-BLUE);
     border-radius: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
     padding: 1rem 2rem;
 }
 
 main div img {
     width: 20rem;
+}
+
+main h3 {
+    color: var(--NEON-GREEN);
+    font-size: .9rem;
+}
+
+main p {
+    color: var(--LIGHT-CYAN);
+    font-size: 1.5rem;
+}
+
+.box {
+    width: 3.5rem;
+    height: 3.5rem;
+    background: var(--NEON-GREEN);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin-top: -12px;
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+.box img {
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
 }
